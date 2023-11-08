@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shopping_list/widgets/left_drawer.dart';
-import 'package:shopping_list/widgets/shop_card.dart';
+import 'package:shopping_list/widgets/shoplist_card.dart';
 
 class MyHomePage extends StatelessWidget {
     MyHomePage({Key? key}) : super(key: key);
@@ -9,7 +9,6 @@ class MyHomePage extends StatelessWidget {
     ShopItem("Tambah Produk", Icons.add_shopping_cart),
     ShopItem("Logout", Icons.logout),
     ];
-
 
     @override
     Widget build(BuildContext context) {
