@@ -21,6 +21,7 @@ class MyHomePage extends StatelessWidget {
             ),
           ),
         backgroundColor: Colors.pink[100],
+        foregroundColor: Colors.white,
       ),
       drawer: const LeftDrawer(),
       body: SingleChildScrollView(
